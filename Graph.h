@@ -16,11 +16,11 @@ public:
 	bool sprawdzCzyKrawedzIstnieje(Edge);
 	void wypisz();
 	int zwrocIndeksWierzcholka(Edge);
-	bool sprawdzCzyGrafSpojny(vector<Edge> &);
+	bool sprawdzCzyGrafSpojny(vector<Edge> &, int);
 	bool sprawdzCzyWszystkieKrawedzieParzystegoStopnia();
 	bool sprawdzCzyIstniejeCyklEulera();
 	void wyznaczCyklEulera();
-	bool sprawdzCzyDalejSpojny(Edge);
+	bool sprawdzCzyDalejSpojny(Edge, int);
 	int zwrocLiczbeSasiadow(int);
 	void wyznaczCykl2();
 
