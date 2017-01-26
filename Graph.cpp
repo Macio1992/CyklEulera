@@ -31,7 +31,7 @@ int Graph::zwrocIndeksWierzcholka(Edge e) {
 
 void Graph::uzupelnijVector() {
 
-	ifstream plik("c4.txt");
+	ifstream plik("graf8.txt");
 
 	if (!plik) {
 		cout << "Blad podczas otwierania pliku" << endl;
